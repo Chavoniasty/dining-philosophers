@@ -16,6 +16,7 @@ git clone https://github.com/Chavoniasty/dining-philosophers.git
 ```
 - Build
 ```bash
+cd dining-philosophers
 g++ -o build/main src/main.cpp src/Fork.cpp src/Table.cpp src/Philosopher.cpp src/GUI.cpp -Iinclude -lncurses
 ```
 - Run
